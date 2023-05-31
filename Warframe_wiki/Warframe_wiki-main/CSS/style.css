@@ -1,0 +1,247 @@
+body { /* Customization for the background of the document */
+    text-align: center;
+    margin: 0 auto;
+    background-color: #000000;
+}
+
+h1 { /* settings for the first header of the document */
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+}
+
+h2 { /* settings for the first header of the document */
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 30vw;
+    text-shadow: 2px 2px 4px #00e1ff93;
+}
+
+b { 
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+a:link { 
+    color:blue
+}
+
+a:visited {
+    color:#00f7ff
+}
+
+a:focus{
+    color:crimson
+}
+
+a:hover {
+    color:red
+}
+
+a:active {
+    color:lightslategray
+}
+
+/* ===== ===== Page Overlay ===== ===== */
+
+
+.page-overlay { /* A default background overlay */
+    padding-top: 3px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    max-width: 60vw;
+    margin: 0 auto;
+    background-color: #0064ff14;
+}
+
+.page-overlay-footer { /* A background overlay for the footers*/
+    color: #ffffff;
+    margin: 0 auto;
+    padding-top: 2px;
+    background-color: #5b6677;
+}
+
+.page-overlay-tutorial { /* A background overlay for tutorial.html */
+    padding-top: 3px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    background-color: #0064ff14;
+}
+
+.page-overlay-h { /* Used for a special h2 on lore*/
+    color: #ffffff;
+    background-color: #0064ff14;  
+    margin: 0 auto;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+    max-width: 20vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+/* ===== ===== Lists/text & buttons ===== ===== */
+
+/* Lists */
+.my-list {
+    background-position: center;
+    max-width: 30vw;
+    border-width: 5px;
+    border-style: solid;
+    background-color: #000000;
+    margin: 1em auto;
+    text-align: left;
+    list-style: none;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+
+.list-text-customization {
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 4px;
+}
+/* buttons */
+main > form {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #ffffff;
+}
+/* Texts */
+.source-links {
+    margin: 0 auto;
+    text-align: center;
+    min-width: 10vw;
+}
+
+body {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #ffffff;
+}    
+.lore-grid > header { 
+    text-decoration: solid;
+    font-size: large;
+    text-align: center;
+}
+
+/* IMG & video */
+.img { /* Customization for all images without a specific class */
+    max-width: 50vw; /* sets the max with of an image */
+    text-align: center; /* Tells the image where it's meant to be */
+    margin: 0 auto;
+    width: 30vw; /* the images width */
+    height: 20vw; /* the images height */
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+
+.img-warframes { /* Customization for all images without a specific class */
+    max-width: 35vw; /* sets the max with of an image */
+    text-align: center; /* Tells the image where it's meant to be */
+    margin: 0 auto;
+    width: 25vw; /* the images width */
+    height: 20vw; /* the images height */
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+
+.tutorial-images {
+    max-width: 35vw; /* sets the max with of an image */
+    text-align: center; /* Tells the image where it's meant to be */
+    margin: 0 auto;
+    width: 25vw; /* the images width */
+    height: 20vw; /* the images height */
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+
+.tutorial-video {
+    margin-top: 1vh;
+    width: 560px; 
+    height: 315px;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+
+.lore-grid > img {
+    margin-top: 2vh;
+    width: 500px; 
+    height: 29px;
+}
+
+/* ===== ===== grids ===== ===== */
+
+.tutorial-grid { 
+    display: grid;
+    grid-template-columns: 0.4fr 1fr 1fr;
+    grid-column-gap: 8vw;
+}
+    
+    .tutorial-grid > div { 
+        padding-top: 1x;
+        padding-bottom: 10px;
+        color: #ffffff;
+        background-color: #0064ff14;
+        margin-right: 4vw;
+    }
+
+.lore-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2vw;
+    grid-row-gap: 2vw;
+    min-height: calc(100vh - 65px);
+    margin: 0 2vw;
+}
+    
+    .lore-grid > div { 
+        padding-top: 3px;
+        padding-bottom: 10px;
+        color: #ffffff;
+        background-color: #0064ff14;
+    }
+
+.warframes-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1vw;
+    grid-row-gap: 0.5vw;
+    min-height: calc(100vh - 65px);
+    margin: 0 5vw;
+}
+
+    .warframes-grid > div { 
+        padding-top: 3px;
+        padding-bottom: 10px;
+        color: #ffffff;
+        background-color: #0064ff14;
+    }
+   
+    a:link { 
+        color:blue
+    }
+    
+    a:visited {
+        color:#00f7ff
+    }
+    
+    a:focus{
+        color:crimson
+    }
+    
+    a:hover {
+        color:red
+    }
+    
+    a:active {
+        color:lightslategray
+    }
